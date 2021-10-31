@@ -99,8 +99,8 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Running Goer Travel server");
+  res.send("Running Goer my Travel server");
 });
 app.listen(port, () => {
-  console.log("Running Goer Travel server", port);
+  console.log("Running Goer my Travel server", port);
 });
